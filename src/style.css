@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(138, 0, 0, 0.7);
+    background-color: rgb(138, 0, 0, 0.8);
     padding-bottom: 10px;
 
 }
@@ -29,7 +29,7 @@ button{
 }
 
 #content{
-    background-color: rgb(128, 128, 128, 0.6);
+    background-color: rgb(128, 128, 128, 0.8);
     border-radius: 8px;
     margin-top: 60px;
     width: 75vw;
@@ -54,6 +54,13 @@ button{
     font-size: 2rem;
 }
 
+.jargon{
+    align-self: center;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
 .orderbtn{
     width: 250px;
     height: 80px;
@@ -68,3 +75,82 @@ button{
     font-weight: bold;
     justify-self: end;
 }
+
+
+/* Contact Tab Styling */
+.contactTitle{
+    align-self: center;
+    font-size: 3.5rem;
+}
+
+.phoneNum{
+    align-self: center;
+    font-size: 2rem;
+}
+
+.email{
+    align-self: center;
+    font-size: 2rem;
+}
+
+.refund{
+    font-weight: bold;
+    align-self: center;
+}
+
+.map{
+    background-image: url('./app/pappamap.png');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    border-radius: 8px;
+}
+
+/* Menu */
+.tempCont{
+    margin-top: 0;
+    width: 75vw;
+    height: 80vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.meat{
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.pepperoni{
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.cheese{
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+}
+.calzone{
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.pizzaName{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.pizzaAbout{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
